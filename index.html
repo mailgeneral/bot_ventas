@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="chatbot-container">
+        <div class="chat-window">
+            
+            <div class="chat-header">
+                <h3>Asistente Virtual</h3>
+                <button class="close-chat-btn">&times;</button>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <!-- Mensajes vacíos para desarrollo -->
+            </div>
+            
+            <form class="chat-input-area" id="chat-form">
+                <input type="text" id="chat-input" placeholder="Escribe un mensaje..." autocomplete="off">
+                <button type="submit" id="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
